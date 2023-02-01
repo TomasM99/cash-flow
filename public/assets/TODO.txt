@@ -1,0 +1,10 @@
+-crear componente para crear movimientos
+-hacer filtro de movimientos para separarlos en egresos y ingresos
+-darle estilos a todo lo hecho hasta ahora (glassmorphism, tipografia, colores)
+-crear contexto de mov para poder poner la cantidad total en el inicio de la home
+-
+-
+-
+-
+-
+-
