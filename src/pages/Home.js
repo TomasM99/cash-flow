@@ -1,13 +1,23 @@
 import MovListContainer from "../components/MovListContainer/MovListContainer";
+import { useContext } from "react";
+import { MovContext } from "../context/MovContext";
 
 const Home = () => {
+    const {total, charge} = useContext(MovContext);
 
     return(
         <>
-        <div>Home</div>
+        <div>
+            {charge()}
+            <p>${total}</p>
+        </div>
 
         <div>
-            <MovListContainer movimiento="Todos por ahora"/>
+            <MovListContainer movimiento="Ingresos"/>
+        </div>
+
+        <div>
+            <MovListContainer movimiento="Egresos"/>
         </div>
         </>
     );

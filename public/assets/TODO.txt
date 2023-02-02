@@ -1,10 +1,16 @@
 -crear componente para crear movimientos
--hacer filtro de movimientos para separarlos en egresos y ingresos
--darle estilos a todo lo hecho hasta ahora (glassmorphism, tipografia, colores)
--crear contexto de mov para poder poner la cantidad total en el inicio de la home
 -
+-darle estilos a todo lo hecho hasta ahora (glassmorphism a navbar, tipografia futurista, colores fluo verde y negro)
 -
--
--
--
--
+-hacer la parte para los dolares en la home
+-SECCION INGRESO --> guardo todos los ingresos de todos los meses, para tener logs (y poder crearlos aca tambien) 
+-SECCION EGRESO --> lo mismo que para los ingresos pero con egresos
+-SECCION DOLAR --> aca puedo cargar dolares, llevar el registro de compra/venta
+-SECCION GASTOS --> puedo anotar gastos fijos como una TODO list, para marcar lo que debo pagar (gastos fijos mensuales o mismo anotar cosas que debo pagar ese mes)
+-crear contexto para el dolar, mas que nada para poder llevar el valor a la home
+
+
+LUEGO DE LO PRINCIPAL
+-Modo nocturno
+-Autenticacion de usuario para ver si puedo tener varios usuarios y no solo cargar mis gastos unicamente
+-Ponerle firebase/db para persistir todos los movimientos

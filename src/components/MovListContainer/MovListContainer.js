@@ -14,7 +14,7 @@ function MovListContainer({movimiento}) {
 
     useEffect( () => {
         getMovs.then((res) => {
-            setListaMovimientos(res);
+            setListaMovimientos(res.filter(mov => mov.tipo === movimiento));
         }).catch((error) => {
             console.log("No se pudieron cargar los movimientos")
         })
