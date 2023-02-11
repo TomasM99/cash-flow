@@ -1,7 +1,5 @@
 -crear componente para crear movimientos
--
 -darle estilos a todo lo hecho hasta ahora (glassmorphism a navbar, tipografia futurista, colores fluo verde y negro)
--
 -hacer la parte para los dolares en la home
 -SECCION INGRESO --> guardo todos los ingresos de todos los meses, para tener logs (y poder crearlos aca tambien) 
 -SECCION EGRESO --> lo mismo que para los ingresos pero con egresos
@@ -13,4 +11,3 @@
 LUEGO DE LO PRINCIPAL
 -Modo nocturno
 -Autenticacion de usuario para ver si puedo tener varios usuarios y no solo cargar mis gastos unicamente
--Ponerle firebase/db para persistir todos los movimientos
